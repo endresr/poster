@@ -91,7 +91,15 @@
   <h2>Mutation</h2>
   <p>
     The paper [RV24] only deals with the concept of mutation on a surface level, however as it bears witness of the over-arching structure we provide some of our findings here. 
-    The first of which is that the \(\tau_d\)-mutation graph of strongly maximal \(\tau_d\)-rigid pairs (<em>sm-\(\tau_d\)-mutation graph</em> for short) over \(\Lambda(n,l)\) is connected [RV, Proposition 6.10]. 
+  </p>
+  <figure class="definition">
+    <p>
+      Let \((M,P)\) and \((M',P')\in \mathcal{C}\times \operatorname{proj}\Lambda\) be strongly maximal \(\tau_d\)-rigid pairs of \(\Lambda(n,l)\). 
+      If there exists a pair \((N,Q)\in\mathcal{C}\times\operatorname{proj}\Lambda\) that is a summand of both \((M,P)\) and \((M',P')\), and \(|N|+|Q|=n-1\), then \((M,P)\) and \((M',P')\) are <em>mutations of each other</em>.
+    </p>
+  </figure>
+  <p>
+    The first observation we want to share is that the \(\tau_d\)-mutation graph of strongly maximal \(\tau_d\)-rigid pairs (<em>sm-\(\tau_d\)-mutation graph</em> for short) over \(\Lambda(n,l)\) is connected [RV, Proposition 6.10]. 
     This is not true in general, see the following example:
   </p>
   
@@ -191,7 +199,7 @@
 <div class="runningText">
   <h2>Mutation graph of \(\Lambda(9,3)\)</h2>
 <p>
-  There are in total \(160\) different strongly maximal \(\tau_2\)-rigid pairs in the \(2\)-cluster tilting subcategory of \(\operatorname{mod}\Lambda(9,3)\). A pair here have at most \(6\) possible mutations and at least \(3\). <a href="./resources/CompleteGraph.pdf">Click here to download pdf</a>.
+  There are in total \(160\) different strongly maximal \(\tau_2\)-rigid pairs in the \(2\)-cluster tilting subcategory of \(\operatorname{mod}\Lambda(9,3)\). A pair here have at most \(6\) possible mutations and at least \(3\).<br> <a href="./resources/CompleteGraph.pdf">Click here to download pdf</a>.
 </p>
   <object class="pdf" data="./resources/CompleteGraph.pdf">
   </object>
@@ -199,7 +207,15 @@
     Mutation graph of the Auslander algebra of \(\mathbb{A}_3\)
   </h2>
   <p>
-    There are in total \(40\) strongly maximal \(\tau_2\)-rigid pairs. This is a \(2\)-representation finite algebra. The strongly maximal \(\tau_2\)-rigid pairs have either \(3\) or \(4\) possible mutations. <a href="./resources/mutationGraphAuslanderA3.pdf">Click here to download pdf</a>.
+    We are now working over the algebra given by the following quiver with relations:
+  </p>
+  <img src="./resources/AuslanderA3.png" width="200px" alt="Auslander A3" class="commutativeDiagram">
+  <p>
+    This is a \(2\)-representation finite algebra. The \(d\)-cluster tilting subcategory is given by the indecomposables marked with a filled circle in the following AR-quiver. We have also drawn the non-trivial actions of \(\tau_d\) on the indecomposables with green arrows.
+  </p>
+  <img src="./resources/ARQuiverAuslanderA3.png" width="100%" alt="Auslander Reiten quiver of the Auslander algebra of type linear A3" class="commutativeDiagram">
+  <p>
+    There are in total \(40\) strongly maximal \(\tau_2\)-rigid pairs. The nodes in the sm-\(\tau_2\)-mutation graph have either 3 or 4 edges. <br> <a href="./resources/mutationGraphAuslanderA3.pdf">Click here to download pdf</a>.
   </p>
   <object class="pdf" data="./resources/mutationGraphAuslanderA3.pdf">,
   </object>
