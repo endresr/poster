@@ -112,10 +112,21 @@ var init_style = [
       }
   },
   {
-    selector: '.mutableSummand',
+    selector: '.mutableSummand.rigid',
     style: {
-      'border-width': 3,
-      'border-color': 'orange',
+      'border-width': 4,
+      'border-color': 'lawngreen ',
+      'background-color': 'firebrick',
+      'label': '\u2B07 ',
+    }
+  },
+  {
+    selector: '.mutableSummand.support',
+    style: {
+      'border-width': 4,
+      'border-color': 'darkorange',
+      'background-color': 'cornflowerblue',
+      'label': '\u2B07 ',
     }
   },
   {

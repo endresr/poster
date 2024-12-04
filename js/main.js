@@ -77,19 +77,17 @@ var init_style = [
     {
         selector: '.notsupport',
         style: {
-            'label':'X',
+            'label':'\u2297',
             'font-weight':'bold',
+            'font-size':30,
             'color':'cornflowerblue',
         }
     },
     {
         selector: '.notrigid',
         style: {
-            'label':'X',
-            'text-background-color': 'gray',
-            'text-background-opacity':.3,
-            'text-background-shape': 'round-rectangle',
-            'text-background-padding':'2px',
+            'label':'\u00D7',
+            'font-size':30,
             'font-weight':'bold',
             'color':'firebrick',
         }
@@ -109,15 +107,10 @@ var init_style = [
     {
         selector: '.neitherrigidnorsupport',
         style: {
-            'label':'X',
-            'text-background-color': 'black',
-            'text-background-opacity':.8,
-            'text-background-shape': 'round-rectangle',
-            'text-background-padding':'2px',
+            'label':'\u22A0',
             'font-weight':'bold',
-            'color':'white',
-            'background-color': 'grey',
-            'opacity':.7,
+            'color':'black',
+            'font-size':30,
         }
     },
 ]
