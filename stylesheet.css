@@ -352,3 +352,10 @@ button:disabled {
 }
 
 
+
+#Notice {
+    border: #00509e solid 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #6096d0a0;
+}
